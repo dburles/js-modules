@@ -1,0 +1,10 @@
+import { exports, __dew__ } from "/npm:react@16.3.2/index.js?dew";
+if (__dew__) __dew__();
+export { exports as default };
+import "/npm:react@16.3.2/cjs/react.development.js?dew";
+import "/npm:object-assign@4?dew";
+import "/npm:fbjs@0.8/lib/invariant?dew";
+import "/npm:fbjs@0.8/lib/emptyObject?dew";
+import "/npm:fbjs@0.8/lib/warning?dew";
+import "/npm:fbjs@0.8/lib/emptyFunction?dew";
+import "/npm:prop-types@15/checkPropTypes?dew";

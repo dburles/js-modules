@@ -1,0 +1,17 @@
+import { exports, __dew__ } from "/npm:react-dom@16.3.2/index.js?dew";
+if (__dew__) __dew__();
+export { exports as default };
+import "/npm:react-dom@16.3.2/cjs/react-dom.development.js?dew";
+import "/npm:fbjs@0.8/lib/invariant?dew";
+import "/npm:react@16?dew";
+import "/npm:fbjs@0.8/lib/warning?dew";
+import "/npm:fbjs@0.8/lib/ExecutionEnvironment?dew";
+import "/npm:object-assign@4?dew";
+import "/npm:fbjs@0.8/lib/emptyFunction?dew";
+import "/npm:prop-types@15/checkPropTypes?dew";
+import "/npm:fbjs@0.8/lib/getActiveElement?dew";
+import "/npm:fbjs@0.8/lib/shallowEqual?dew";
+import "/npm:fbjs@0.8/lib/containsNode?dew";
+import "/npm:fbjs@0.8/lib/emptyObject?dew";
+import "/npm:fbjs@0.8/lib/hyphenateStyleName?dew";
+import "/npm:fbjs@0.8/lib/camelizeStyleName?dew";
