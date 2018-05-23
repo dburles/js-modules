@@ -1,8 +1,27 @@
-import React from 'https://dev.jspm.io/react';
-import ReactDOM from 'https://dev.jspm.io/react-dom';
+import {
+  html,
+  render,
+} from 'https://unpkg.com/lit-html/lib/lit-extended.js?module';
 import double from './double.js';
 
-ReactDOM.render(
-  React.createElement('p', {}, `Hello World ${double(2)}`),
-  document.getElementById('root'),
-);
+let count = 0;
+
+const increment = () => {
+  count += 1;
+  update();
+};
+
+const Button = html`
+  <button on-click=${event => increment()}>Increment</button>
+`;
+
+const App = () => html`
+  <div>
+    <p>The current count is ${count} doubled it's ${double(count)}</p>
+    <p>${Button}</p>
+  </div>
+`;
+
+const update = () => render(App(), document.getElementById('root'));
+
+update();
